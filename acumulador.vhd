@@ -7,7 +7,7 @@ port(
     clk,r,p,ff_E: in std_logic;
     B,D: in std_logic_vector(7 downto 0);
     ALU,T: in std_logic_vector(15 downto 0);
-    -- Outpus
+    -- Outputs
     AC: out std_logic_vector(15 downto 0)
 );
 end entity;

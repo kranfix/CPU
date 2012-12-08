@@ -10,7 +10,8 @@ port(
     r,p,clrcont,incrcont: out std_logic;
     SC_cnt: out std_logic_vector(3 downto 0);
     T: out std_logic_vector(5 downto 0);
-    D: out std_logic_vector(7 downto 0)
+    D: out std_logic_vector(7 downto 0);
+    B: out std_logic_vector(11 downto 0)
 );
 end entity;
 
