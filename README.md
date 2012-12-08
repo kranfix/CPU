@@ -4,13 +4,21 @@ Este repositorio contiene la implementación del computador básico
 descrito en el libro <b>"Arquitectura de Computadoras"</b> de los
 autores Morris-Manó.
 
-Registros de 16 bits (registros_16.vhd)
+Registros de 16 bits
 ====================
-Se definen 3 registros de 16 bits, los cuales son DR, IR y TR.
+
+Se definen 3 registros de 16 bits en <b>registros_16.vhd</b>
+
+<h3>Registros</h3>
 DR:
 IR:
 TR:
 
-Registros de 12 bits (registros_12.vhd)
+Registros de 12 bits
 ====================
-Se definen los registros de 12 bits, los cuales son AR y PC.
+
+Se definen 2 registros de 12 bits en <b>registros_12.vhd</b>
+
+<h3>Registros</h3>
+AR:
+PC:
