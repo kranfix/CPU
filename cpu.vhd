@@ -14,7 +14,7 @@ architecture cetral of cpu is
     signal FGI,FGO,ff_E,ff_I,IEN,ff_S,ff_R: std_logic;
     signal: std_logic_vector(7 downto 0);
     signal B: std_logic_vector(11 downto 0);
-	signal DR,IR,TR: std_logic_vector(15 downto 0);
+	signal DR,IR,TR,ALU: std_logic_vector(15 downto 0);
     
     component registros_16
 		port(
