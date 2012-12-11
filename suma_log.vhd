@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity sumador_log is
+entity suma_log is
 port(
     -- Inputs
     p: in std_logic;
@@ -14,6 +14,6 @@ port(
 );
 end entity;
 15 downto 0
-architecture sumar of sumador_log is
+architecture sumar of suma_log is
 begin
 end sumar;
